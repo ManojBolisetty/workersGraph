@@ -50,7 +50,7 @@ const WorkerForm = forwardRef((props, ref) => {
           </button>,
         ]}
         closable={true}
-        onClose={onClose}
+        onCancel={onClose}
       >
         <Form onFinish={onFinish} ref={formRef} {...formLayout}>
           <Form.Item label="Name" name={"name"} required={true}>
